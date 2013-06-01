@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="2517MariuszRokicki.WildAnimalsbyMariusz" Publisher="CN=19754750-5058-4D1E-952B-EDDF93316C01" Version="1.0.0.2" />
+  <Identity Name="46971KamilCielak.WildAnimalsExtreme" Publisher="CN=E742DEBA-B257-40D6-9664-C3CECD5BC5AA" Version="1.0.0.0" />
   <Properties>
-    <DisplayName>Wild Animals by Mariusz</DisplayName>
-    <PublisherDisplayName>Mariusz Rokicki</PublisherDisplayName>
+    <DisplayName>Wild Animals Extreme</DisplayName>
+    <PublisherDisplayName>Kamil Cieślak</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -15,8 +15,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Wild_Animals.App">
-      <VisualElements DisplayName="Wild Animals by Mariusz" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Wild Animals" ForegroundText="dark" BackgroundColor="#96F607">
-        <DefaultTile ShowName="allLogos" />
+      <VisualElements DisplayName="Wild Animals" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Wild Animals" ForegroundText="dark" BackgroundColor="#96F607">
+        <DefaultTile ShowName="noLogos" />
         <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#96F607" />
       </VisualElements>
     </Application>
